@@ -1,5 +1,5 @@
 install:
-	uv sunc
+	uv sync
 
 brain-games:
 	uv run brain-games

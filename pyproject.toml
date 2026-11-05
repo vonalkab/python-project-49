@@ -25,11 +25,3 @@ packages = ["brain_games"]
 dev = [
     "ruff>=0.17.3",
 ]
-
-[lint]
-preview = true
-select = ["E", "F", "I", "C90", "UP", "B", "S", "FURB", "RUF"]
-
-[lint.per-file-ignores]
-"__init__.py" = ["unused-import"]
-"tests/**" = ["assert"]
