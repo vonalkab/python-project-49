@@ -18,10 +18,10 @@ def play_game(name: str) -> None:
             counter += 1
             print("Correct!")
         else:
-            counter = 0
             print(
                 f"'{user_answer}' is wrong answer ;(. "
                 f"Correct answer was '{correct_answer}'."
             )
             print(f"Let's try again, {name}!")
+            return
     print(f"Congratulations, {name}!")

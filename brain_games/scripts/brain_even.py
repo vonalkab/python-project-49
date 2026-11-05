@@ -1,5 +1,5 @@
 from brain_games.cli import welcome_user
-from brain_games.game_even import play_game
+from brain_games.games.game_even import play_game
 
 
 def main() -> None:
