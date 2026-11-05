@@ -1,27 +1,13 @@
 from random import randint
 
-import prompt
-
 
 def is_even(number: int) -> bool:
-    return number % 2 == 0
+    return "yes" if number % 2 == 0 else "no"
 
 
-def play_game(name: str) -> None:
-    print("Answer \"yes\" if the number is even, otherwise answer \"no\".")
-    counter = 0
-    while counter < 3:
-        num = randint(1, 1000)
-        user_answer = prompt.string(f"Question: {num}\nYour answer: ")
-        correct_answer = "yes" if is_even(num) else "no"
-        if user_answer.lower() == correct_answer:
-            counter += 1
-            print("Correct!")
-        else:
-            print(
-                f"'{user_answer}' is wrong answer ;(. "
-                f"Correct answer was '{correct_answer}'."
-            )
-            print(f"Let's try again, {name}!")
-            return
-    print(f"Congratulations, {name}!")
+def get_args() -> tuple:
+    rules = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
+    number = randint(1, 1000)
+    expression = number
+    currect_answer = is_even(number)
+    return (rules, expression, currect_answer)
