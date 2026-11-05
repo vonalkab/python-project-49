@@ -1,13 +1,15 @@
 import prompt
 
+from brain_games.cli import welcome_user
 
-def play_game(name: str, rules: str, expression: str, correct_answer: str) -> None:
-    print(rules)
-    counter = 0
-    while counter < 3:
+
+def play_game(show_rules, func) -> None:
+    name = welcome_user()
+    print(show_rules())
+    for _ in range(3):
+        expression, correct_answer = func()
         user_answer = prompt.string(f"Question: {expression}\nYour answer: ")
         if user_answer == correct_answer:
-            counter += 1
             print("Correct!")
         else:
             print(

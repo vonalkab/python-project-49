@@ -6,8 +6,11 @@ def is_even(number: int) -> bool:
 
 
 def get_args() -> tuple:
-    rules = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
     number = randint(1, 1000)
     expression = number
-    currect_answer = is_even(number)
-    return (rules, expression, currect_answer)
+    correct_answer = is_even(number)
+    return (expression, correct_answer)
+
+
+def get_rules() -> str:
+    return "Answer \"yes\" if the number is even, otherwise answer \"no\"."
