@@ -5,10 +5,10 @@ signs = ("+", "-", "*")
 commands = (operator.add, operator.sub, operator.mul)
 
 
-def calculate(num1: int, num2: int, indx: int) -> str:
+def calculate(num1: int, num2: int, indx: int) -> int:
     function = commands[indx]
     result = function(num1, num2)
-    return str(result)
+    return result
 
 
 def get_args() -> tuple:
@@ -16,7 +16,7 @@ def get_args() -> tuple:
     b = randint(1, 20)
     indx = randint(0, 2)
     expression = f"{a} {signs[indx]} {b}"
-    correct_answer = calculate(a, b, indx)
+    correct_answer = str(calculate(a, b, indx))
     return (expression, correct_answer)
 
 
