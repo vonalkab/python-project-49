@@ -22,8 +22,9 @@ cd python-project-49
 
 ## Использование
 
-[![asciicast](https://asciinema.org/a/6VLbrevrwBMqeKdS.svg)](https://asciinema.org/a/6VLbrevrwBMqeKdS)
+[![Демонстрация brain-even](https://asciinema.org/a/WyfxnZ7eWCytqdX0.svg)](https://asciinema.org/a/WyfxnZ7eWCytqdX0)
 
+[![Демонстрация brain-calc](https://asciinema.org/a/PBVhlsMBJb1Kb651.svg)](https://asciinema.org/a/PBVhlsMBJb1Kb651)
 ---
 
 <details>
