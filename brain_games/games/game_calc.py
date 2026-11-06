@@ -5,7 +5,7 @@ signs = ("+", "-", "*")
 commands = (operator.add, operator.sub, operator.mul)
 
 
-def calculate(num1: int, num2: int, indx) -> str:
+def calculate(num1: int, num2: int, indx: int) -> str:
     function = commands[indx]
     result = function(num1, num2)
     return str(result)
