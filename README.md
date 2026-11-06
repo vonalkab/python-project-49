@@ -25,6 +25,8 @@ cd python-project-49
 [![Демонстрация brain-even](https://asciinema.org/a/WyfxnZ7eWCytqdX0.svg)](https://asciinema.org/a/WyfxnZ7eWCytqdX0)
 
 [![Демонстрация brain-calc](https://asciinema.org/a/PBVhlsMBJb1Kb651.svg)](https://asciinema.org/a/PBVhlsMBJb1Kb651)
+
+[![Демонстрация brain-gcd](https://asciinema.org/a/ERQyDLm0zw3tUzbR.svg)](https://asciinema.org/a/ERQyDLm0zw3tUzbR)
 ---
 
 <details>
