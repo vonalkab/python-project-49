@@ -30,6 +30,8 @@ cd python-project-49
 
 [![Демонстрация brain-progression](https://asciinema.org/a/fUkqE6SBU1SoOTdS.svg)](https://asciinema.org/a/fUkqE6SBU1SoOTdS)
 
+[![Демонстрация brain-prime](https://asciinema.org/a/I2W6W6HO29SZ3DhA.svg)](https://asciinema.org/a/I2W6W6HO29SZ3DhA)
+
 ---
 
 <details>
