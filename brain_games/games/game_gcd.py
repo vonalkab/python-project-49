@@ -2,11 +2,11 @@ from random import randint
 
 
 def get_args() -> tuple:
-    common_devisor = randint(1, 30)
+    common_divisor = randint(1, 30)
     factor1 = randint(1, 10)
     factor2 = randint(1, 10)
-    num1 = factor1 * common_devisor
-    num2 = factor2 * common_devisor
+    num1 = factor1 * common_divisor
+    num2 = factor2 * common_divisor
     expression = f"{num1} {num2}"
     correct_answer = str(get_gcd(num1, num2))
     return expression, correct_answer

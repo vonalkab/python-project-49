@@ -3,9 +3,9 @@ from random import randint, randrange
 
 def get_progression() -> list:
     length = randint(5, 10)
-    begining = randint(1, 20)
+    beginning = randint(1, 20)
     step = randint(1, 5)
-    progression = [str(begining)]
+    progression = [str(beginning)]
     for i in range(1, length):
         new_element = int(progression[i - 1]) + step
         progression.append(str(new_element))
